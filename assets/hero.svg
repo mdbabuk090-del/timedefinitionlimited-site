@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Lead generation network illustration</title>
+  <desc id="desc">Abstract business network with connected customer and service provider nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1f33"/>
+      <stop offset="1" stop-color="#163b4a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#e9f7f4" stop-opacity="0.96"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="40" fill="url(#bg)"/>
+  <circle cx="1020" cy="140" r="220" fill="#2db69a" opacity="0.12"/>
+  <circle cx="150" cy="700" r="280" fill="#5aa7d8" opacity="0.10"/>
+  <path d="M225 402 C360 248 470 512 602 392 S840 287 997 415" fill="none" stroke="#78d7c3" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M224 521 C420 650 540 239 728 484 S968 607 1062 507" fill="none" stroke="#80b8dc" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
+  <g>
+    <rect x="150" y="165" width="350" height="225" rx="28" fill="url(#card)"/>
+    <rect x="190" y="205" width="110" height="18" rx="9" fill="#2db69a" opacity="0.9"/>
+    <rect x="190" y="245" width="230" height="14" rx="7" fill="#9fb2c0"/>
+    <rect x="190" y="278" width="180" height="14" rx="7" fill="#c0ccd4"/>
+    <rect x="190" y="323" width="130" height="40" rx="20" fill="#0f6d61"/>
+    <text x="215" y="349" font-family="Arial, sans-serif" font-size="18" fill="#fff">Prospect</text>
+  </g>
+  <g>
+    <rect x="700" y="385" width="350" height="225" rx="28" fill="url(#card)"/>
+    <rect x="740" y="425" width="150" height="18" rx="9" fill="#4a91be" opacity="0.9"/>
+    <rect x="740" y="466" width="240" height="14" rx="7" fill="#9fb2c0"/>
+    <rect x="740" y="499" width="205" height="14" rx="7" fill="#c0ccd4"/>
+    <rect x="740" y="544" width="170" height="40" rx="20" fill="#153a56"/>
+    <text x="766" y="570" font-family="Arial, sans-serif" font-size="18" fill="#fff">Service Provider</text>
+  </g>
+  <g fill="#dff8f2" stroke="#2db69a" stroke-width="5">
+    <circle cx="255" cy="482" r="28"/>
+    <circle cx="462" cy="474" r="22"/>
+    <circle cx="605" cy="392" r="31"/>
+    <circle cx="805" cy="337" r="22"/>
+    <circle cx="1005" cy="417" r="28"/>
+  </g>
+  <g fill="#e6f2fb" stroke="#4a91be" stroke-width="4">
+    <circle cx="349" cy="579" r="18"/>
+    <circle cx="603" cy="569" r="24"/>
+    <circle cx="872" cy="576" r="18"/>
+  </g>
+</svg>
